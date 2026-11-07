@@ -1,9 +1,8 @@
 {
   "id": "theme-kino-jp-neon",
   "name": "Kino TV JP",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "apiVersion": 18,
-  "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij48cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgcng9IjU2IiBmaWxsPSIjMUEwQjJFIi8+PHBhdGggZD0iTSA2MCA5MCBIIDE5MCBWIDExMCBIIDYwIFogTSA2MCAxNDAgSCAxOTAgViAxNjAgSCA2MCBaIE0gMTE1IDQwIEggMTQ1IFYgMjIwIEggMTE1IFoiIGZpbGw9IiNFMDQwRkIiLz48L3N2Zz4=",
   "entry": "plugin.js",
   "description": "Tema cyberpunk japonés con fondo negro puro y detalles neón.",
   "hosts": [],
