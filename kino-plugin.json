@@ -3,6 +3,7 @@
   "name": "Kino TV JP",
   "version": "1.0.2",
   "apiVersion": 18,
+  "icon": "icon.png",
   "entry": "plugin.js",
   "description": "Tema cyberpunk japonés con fondo negro puro y detalles neón.",
   "hosts": [],
