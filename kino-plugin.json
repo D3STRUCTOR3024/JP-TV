@@ -1,0 +1,108 @@
+{
+  "id": "theme-kino-jp-neon",
+  "name": "Kino TV JP",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Tema con logo en japonés (キノ TV), fondo negro puro absoluto, y detalles en tonos morado oscuro, morado claro y azul oscuro.",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "appThemes": [
+    {
+      "id": "jp-neon-dark",
+      "name": {
+        "es": "Japón Neón",
+        "en": "Japan Neon"
+      },
+      "colors": {
+        "background": "#000000",
+        "accent": "#E040FB",
+        "onAccent": "#FFFFFF",
+        "surface": "#1A0B2E",
+        "surfaceHigh": "#311459",
+        "railPanel": "#0D1B2A",
+        "border": "#1B263B"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#000000",
+          "#05020A"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 12,
+        "channelRadius": 12,
+        "buttonRadius": 24,
+        "chipRadius": 18,
+        "dialogRadius": 20,
+        "inputRadius": 10,
+        "cardBorder": 1,
+        "panelBorder": 1,
+        "dialogBorder": 2
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.05,
+        "bodyScale": 1.0
+      },
+      "logo": {
+        "wordmark": {
+          "size": [
+            200,
+            50
+          ],
+          "paths": [
+            {
+              "d": "M 10 15 H 40 V 20 H 10 Z M 10 25 H 40 V 30 H 10 Z M 22 5 H 28 V 45 H 22 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M 80 10 Q 60 25 50 45 L 55 48 Q 65 28 85 13 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M 100 10 H 140 V 16 H 123 V 45 H 117 V 16 H 100 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M 150 10 L 167 45 L 184 10 H 176 L 167 33 L 158 10 Z",
+              "fill": "textPrimary"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            50,
+            50
+          ],
+          "paths": [
+            {
+              "d": "M 10 15 H 40 V 20 H 10 Z M 10 25 H 40 V 30 H 10 Z M 22 5 H 28 V 45 H 22 Z",
+              "fill": "accent"
+            }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#E040FB",
+            "#B388FF",
+            "#7C4DFF",
+            "#2962FF",
+            "#00B0FF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 20
+        },
+        "background": true
+      }
+    }
+  ]
+}
